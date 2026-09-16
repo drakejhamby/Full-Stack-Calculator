@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+#display {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    height: 25vh;
+    width: 75vw;
+}
+
+#button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: auto;
+    margin: auto;
+    height: 75vh;
+    width: 75vh;
+    border: 10px solid black;
+   
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+}
+
+.number{
+    background-color: aquamarine;
+}
+
+.operator{
+    background-color: blueviolet;
+}
+
+#output-clear{
+    background-color: orange;
+}
+
+#output{
+    border: 1px solid black;
+
+}
