@@ -68,18 +68,19 @@ img {
 #history{
     width: 80%;
     aspect-ratio: 1/1;
+    background-color: #cbd5e1;
 }
 
 .number {
-    background-color: #67e8f9;
+    background-color: #38bdf8;
 }
 
 .operator {
-    background-color: #818cf8;
+    background-color: #8b5cf6;
 }
 
 #output-clear {
-    background-color: #fb7185;
+    background-color: #f97316;
 }
 
 #output{
@@ -89,4 +90,28 @@ img {
     margin: 0;
     background-color: #e2e8f0;
     font-size: 30px;
+}
+
+.equals{
+    background-color: #34d399;
+}
+
+button.number:hover{
+    background-color: #7dd3fc;
+}
+
+button.operator:hover{
+    background-color: #a78bfa;
+}
+
+#output-clear:hover {
+    background-color: #fb923c;
+}
+
+#history:hover {
+    background-color: #e2e8f0;
+}
+
+.equals:hover {
+    background-color: #6ee7b7;
 }
